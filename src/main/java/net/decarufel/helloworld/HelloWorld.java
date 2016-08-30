@@ -4,6 +4,7 @@ import static java.lang.System.out;
 
 public class HelloWorld {
     public static void main(String[] args){
-        out.println("Hello World!");
+        Greeting greeting = new Greeting();
+        out.println(greeting.Hello("World"));
     }
 }
